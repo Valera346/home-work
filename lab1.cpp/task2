@@ -1,0 +1,15 @@
+/*Напишіть програму, яка:
+- друкує таке повідомлення на екрані: "Enter the name: ",
+- вчитує ім'я користувача з клавіатури,
+- друкує на екрані повідомлення: "Hello...!" і виводить ім’я.*/
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string text;
+    cout << "Enter the name:" << endl;
+    cin >> text;
+    cout << "Hello would! " << text << endl;
+    return 0;
+}
