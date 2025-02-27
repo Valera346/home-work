@@ -1,14 +1,13 @@
 #include <iostream>
-using namespace std;
 
 int main(){
 	int a, b;
-	cout  <<  "pershe chslo a " << endl;
-	cin >>  a;
-	cout << "druge chuslo" << endl;
-	cin >> b;
-	cout << a + b << endl;
-	cout << a - b << endl;
-	cout << a * b << endl;
+	std::cout  <<  "pershe chslo a " << endl;
+	std::cin >>  a;
+	std::cout << "druge chuslo" << endl;
+	std::cin >> b;
+	std::cout << a + b << endl;
+	std::cout << a - b << endl;
+	std::cout << a * b << endl;
 
 }
