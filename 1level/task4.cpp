@@ -1,13 +1,13 @@
 #include <iostream>
-using namespace std;
+
 int main(){
 	double  pi=3.14, R;
-	cout << "radius kola" << endl;
-        cin >> R;
+	std::cout << "radius kola" << std::endl;
+        std::cin >> R;
 	
 	double radius = pi*R*R;
 	double L= 2*pi*R;	
-		cout << radius << endl << L << endl;
+		std::cout << radius << std::endl << L << std::endl;
 		
 	}	
 
